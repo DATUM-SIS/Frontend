@@ -66,18 +66,10 @@
 #formbutton{
     border-radius: 3em;
 }
+
 /* Profile Page */
 
-.student-name{
-    /* border: 2px solid black; */
-    /* border-radius: 1em; */
-    padding: 3% 7%;
-    margin: 7px;
-    text-align: center;
-}
-
 .user-profile{
-    /* border: 2px solid black; */
     border-radius: 1em;
     color: rgb(62, 101, 173);
     background-color: #e5e5e5;
