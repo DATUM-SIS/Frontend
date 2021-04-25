@@ -56,21 +56,21 @@
 }
 
 #percentage_color_1{
-    color: rgb(0, 255, 42);
+    color: #28a745;
     display: block;
     text-align: center;
     font-size: 9em;
 }
 
 #percentage_color_2{
-    color: rgb(216, 250, 23);
+    color: #ffc107;
     display: block;
     text-align: center;
     font-size: 9em;
 }
 
 #percentage_color_3{
-    color: rgb(250, 178, 23);
+    color: #ff8507;
     display: block;
     text-align: center;
     font-size: 9em;
