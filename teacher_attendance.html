@@ -28,54 +28,56 @@
         </div>
     </div>
     <div class='container' style='margin-top: 3%; '>
-        <div class="row">
+        <div class="row" style=' display:flex; justify-content: center;'>
             <div class="col" id='edit_form'>
-                <form action="/home" style='padding-top: 3%; padding-right: 12%;'>
-                    <div class="form-group" style='margin: 5px 25%;'>
-                      <label style='display: -webkit-inline-flex;'>
-                            <h3 style="margin-right: 17%;">Date:</h3> 
-                            <input id='FormInput' type="date" class="form-control" name='date' aria-describedby="emailHelp" placeholder='Select_Date'>
+                <form action="/home">
+                    
+                    <div class="form-group" style='margin-left: 10%; display:flex; justify-content: center;'>
+                      <label style='text-align: center; display: inline-block; margin-top: 5%;'>
+                            <h3>Date</h3> 
+                            <input style="margin-bottom: 5%;" id='FormInput' type="date" class="form-control" name='name' aria-describedby="emailHelp" placeholder="Name">
                       </label>
                     </div>
-                    <div class="form-group" style='margin-left: 25%; margin-bottom: 5px;'>
+
+                    <div class="form-group" style='display:flex; justify-content: center;'>
                         <label style='display: flex;'>
-                            <h5 style="margin-right: 25%;">19103071 </h5>
-                            <label class="switch">
-                                <input type="checkbox"  checked>
-                                <span class="slider round"></span>
-                            </label>
+                            <h5 style="margin-right: 10%;">19103072:</h5>
+                            <div style='display: flex;'>
+                                <input style='margin: 0.4rem 0.3rem 0 0;' type="radio" name="status" value="Present">
+                                <span style='margin-right: 1rem;'>Present</span>
+                                <input style='margin: 0.4rem 0.3rem 0 0;' type="radio" name="status" value="Absent">
+                                <span >Absent</span>
+                            </div>
                         </label>
                     </div>
-                    <div class="form-group" style='margin-left: 25%; margin-bottom: 5px;'>
+
+                    <div class="form-group" style='display:flex; justify-content: center;'>
                         <label style='display: flex;'>
-                            <h5 style="margin-right: 25%;">19103072 </h5>
-                            <label class="switch">
-                                <input type="checkbox" checked>
-                                <span class="slider round"></span>
-                            </label>
+                            <h5 style="margin-right: 10%;">19103072:</h5>
+                            <div style='display: flex;'>
+                                <input style='margin: 0.4rem 0.3rem 0 0;' type="radio" name="status" value="Present">
+                                <span style='margin-right: 1rem;'>Present</span>
+                                <input style='margin: 0.4rem 0.3rem 0 0;' type="radio" name="status" value="Absent">
+                                <span >Absent</span>
+                            </div>
                         </label>
                     </div>
-                    <div class="form-group" style='margin-left: 25%; margin-bottom: 5px;'>
+                    
+                    <div class="form-group" style='display:flex; justify-content: center;'>
                         <label style='display: flex;'>
-                            <h5 style="margin-right: 25%;">19103073 </h5>
-                            <label class="switch">
-                                <input type="checkbox" checked>
-                                <span class="slider round"></span>
-                            </label>
+                            <h5 style="margin-right: 10%;">19103072:</h5>
+                            <div style='display: flex;'>
+                                <input style='margin: 0.4rem 0.3rem 0 0;' type="radio" name="status" value="Present">
+                                <span style='margin-right: 1rem;'>Present</span>
+                                <input style='margin: 0.4rem 0.3rem 0 0;' type="radio" name="status" value="Absent">
+                                <span >Absent</span>
+                            </div>
                         </label>
                     </div>
-                      <div class="form-group" style='margin-left: 25%; margin-bottom: 5px;'>
-                        <label style='display: flex;'>
-                            <h5 style="margin-right: 25%;">19103074 </h5>
-                            <label class="switch">
-                                <input type="checkbox" checked>
-                                <span class="slider round"></span>
-                            </label>
-                        </label>
-                      </div>
-                      <div style='padding-top: 10px; text-align: center;'>
-                          <button style='margin-left: 16%; border-radius: .7em;' type="submit" class="Submit_button">Submit</button>
-                      </div>
+
+                    <div style='margin-left: 10%; text-align: center; margin-bottom: 7%;'>
+                        <button style='border-radius: .7em;' type="submit" class="Submit_button">Submit</button>
+                    </div>
                 </form>
             </div>
         </div>
