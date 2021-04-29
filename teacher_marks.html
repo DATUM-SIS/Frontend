@@ -32,10 +32,15 @@
             <div class="col-xs-12 col-sm-8 col-md-6 col-lg-5 col-xl-4" id='edit_form'>
                 <form action="/home" style='padding-top: 10%;'>
 
-                    <div class="form-group" style='display: flex; justify-content: center; margin-bottom: 5px;'>
+                    <div class='form-group' style='display: flex; justify-content: center; margin-bottom: 5px;'>
                         <h5 style="margin-right: 33%; padding-top: 6px;">SID: </h5>
-                        <label>  
-                            <input style="text-align: center; margin-right: -30px;" id='FormInput' type="text" class="form-control" name='sid' placeholder="SID">
+                        <label>
+                            <select id='dropdown' name="role">
+                                <option value="">Select Role</option>
+                                <option value="Admin">Admin</option>
+                                <option value="Teacher">Teacher</option>
+                                <option value="Student">Student</option>
+                            </select>
                         </label>
                     </div>
                     
