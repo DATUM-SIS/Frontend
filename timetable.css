@@ -1,0 +1,73 @@
+#DATUM_HEADING{
+    color: rgb(62, 101, 173);
+    font-weight: 700;
+    font-size: 2.5em;
+    padding-left: 10px;
+    margin-right: 0.5rem;
+}
+
+.nav-link{
+    text-align: left;
+    padding: 3px 8px;
+    font-weight: 600;
+    margin: 1px 5px;
+    font-size:1.35em;
+    color: black;
+    border-radius: 0.7em;
+    transition: .5s;
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: rgb(62, 101, 173);
+}
+p{
+  font-weight: bold;
+  font-size: 40px;
+}
+.Intro{
+  margin:20px 150px;
+  border-radius:1em;
+  text-align: center;
+  background-color: #F0F2FD;
+  color:rgb(62, 101, 173);
+  padding:3% 10% 0.5%;
+}
+
+body{
+    margin-top:20px;
+}
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+.table-bordered thead td, .table-bordered thead th {
+    border-bottom-width: 2px;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+
+
+
+
+
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.align-middle{
+  font-weight: bold;
+}
+.subject{
+  font-weight: 500;
+
+}
